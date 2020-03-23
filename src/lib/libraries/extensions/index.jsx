@@ -46,6 +46,10 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+
+import newBlockImage from './newblocks.png'
+import newBlockButtonImage from './newblocks-small.png'
+
 export default [
     {
         name: (
@@ -317,5 +321,41 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Nuevos bloques',
+        extensionId: 'newblocks',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.newblocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+        {
+        name: 'ID3 bloques',
+        extensionId: 'id3Blocks',
+        collaborator: 'Me',
+        description: (
+            <FormattedMessage
+                defaultMessage="ID3 blocks."
+                description="my block"
+                id="gui.extension.id3blocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
     }
 ];

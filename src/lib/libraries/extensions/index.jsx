@@ -317,5 +317,22 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Bloques Naive Bayes',
+        extensionId: 'naiveBayesBlocks',
+        collaborator: 'Me',
+        description: (
+            <FormattedMessage
+                defaultMessage="Bloques Naive Bayes."
+                description="Utiles para implementar algoritmo NB"
+                id="gui.extension.newblocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
     }
 ];

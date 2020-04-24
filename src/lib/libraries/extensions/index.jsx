@@ -341,7 +341,7 @@ export default [
         bluetoothRequired: false,
         helpLink: 'https://scratch.mit.edu/wedo'
     },
-        {
+    {
         name: 'ID3 bloques',
         extensionId: 'id3Blocks',
         collaborator: 'Me',
@@ -350,6 +350,23 @@ export default [
                 defaultMessage="ID3 blocks."
                 description="my block"
                 id="gui.extension.id3blocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+    {
+        name: 'Naive Bayes',
+        extensionId: 'naiveBayesBlocks',
+        collaborator: 'Me',
+        description: (
+            <FormattedMessage
+                defaultMessage="Bloques algoritmo Naive Bayes"
+                description="my blocks"
+                id="gui.extension.naivebayes.description"
             />
         ),
         featured: true,

@@ -331,7 +331,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Crea tu clasificador con IA"
                 description="Utiles para implementar algoritmo Naive Bayes"
-                id="gui.extension.naivebayes.connectingMessage"
+                id="gui.extension.naivebayes.description"
             />
         ),
         featured: true,

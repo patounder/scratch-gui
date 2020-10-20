@@ -46,6 +46,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import naivebayesConnectionIconURL from './naivebayes/nb-large.jpg';
+import naivebayesConnectionSmallIconURL from './naivebayes/class-icon.png'
+
 export default [
     {
         name: (
@@ -320,19 +323,20 @@ export default [
     },
     {
         name: 'Bloques Naive Bayes',
-        extensionId: 'naiveBayesBlocks',
-        collaborator: 'Me',
+        extensionId: 'naivebayes',
+        collaborator: 'DCC Universidad de Chile',
+        iconURL: naivebayesConnectionIconURL,
+        insetIconURL: naivebayesConnectionSmallIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Bloques Naive Bayes."
-                description="Utiles para implementar algoritmo NB"
-                id="gui.extension.newblocks.description"
+                defaultMessage="Crea tu clasificador con IA"
+                description="Utiles para implementar algoritmo Naive Bayes"
+                id="gui.extension.naivebayes.connectingMessage"
             />
         ),
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
-        bluetoothRequired: false,
-        helpLink: 'https://scratch.mit.edu/wedo'
+        bluetoothRequired: false
     }
 ];

@@ -322,7 +322,7 @@ export default [
         helpLink: 'https://scratch.mit.edu/vernier'
     },
     {
-        name: 'Bloques Naive Bayes',
+        name: 'Bloques Bayes Ingenuo',
         extensionId: 'naivebayes',
         collaborator: 'DCC Universidad de Chile',
         iconURL: naivebayesConnectionIconURL,
@@ -330,7 +330,7 @@ export default [
         description: (
             <FormattedMessage
                 defaultMessage="Crea tu clasificador con IA"
-                description="Utiles para implementar algoritmo Naive Bayes"
+                description="Implementa el algoritmo Bayes Ingenuo"
                 id="gui.extension.naivebayes.description"
             />
         ),
